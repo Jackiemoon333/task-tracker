@@ -10,7 +10,6 @@ A multi-language command-line task tracker application built for learning purpos
 - ✅ List completed tasks
 - ✅ List pending tasks (todo + in-progress)
 - ✅ List tasks in progress
-- ✅ Beautiful colored terminal output
 - ✅ Multiple database backends (JSON, SQLite)
 
 ## Installation
@@ -153,42 +152,6 @@ CREATE TABLE tasks (
 );
 ```
 
-## Learning Objectives
-
-This project demonstrates:
-
-- **CLI Development**: Building command-line interfaces
-- **Data Persistence**: JSON files vs SQLite databases
-- **Multi-language Development**: Same application in Python, JavaScript, and Go
-- **Database Operations**: CRUD operations with SQL
-- **Error Handling**: Graceful error management
-- **User Experience**: Colored output, confirmation prompts, help systems
-
-## Technology Comparison
-
-### Python
-- **Pros**: Easy to learn, rich ecosystem, great for data science/ML
-- **Cons**: Slower than compiled languages
-- **Best for**: Rapid prototyping, data analysis, ML applications
-
-### JavaScript/Node.js
-- **Pros**: Web integration, large ecosystem, async-friendly
-- **Cons**: Single-threaded, dynamic typing can cause bugs
-- **Best for**: Web applications, APIs, full-stack development
-
-### Go
-- **Pros**: Fast, compiled, great concurrency, single binary
-- **Cons**: More verbose, steeper learning curve
-- **Best for**: Backend services, system tools, high-performance applications
-
-## Contributing
-
-This is a learning project! Feel free to:
-- Add new features
-- Improve error handling
-- Add more language implementations
-- Enhance the UI/UX
-- Add tests
 
 ## License
 
